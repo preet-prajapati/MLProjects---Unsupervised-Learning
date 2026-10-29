@@ -14,11 +14,10 @@ purchase behavior, and campaign outcomes.
 
 ## Privacy and provenance
 
-The file has no names, email addresses, phone numbers, or street addresses, but it still contains a
-pseudonymous customer identifier plus income, household, and purchase information. Handle it as
-sensitive analytical data and do not attempt to re-identify individuals.
+The project owner has confirmed that this is a randomly generated/synthetic dataset created for
+educational analysis. It does not describe real SmartCart customers. The file contains no names, email
+addresses, phone numbers, or street addresses.
 
-The original project did not record the dataset's source URL or redistribution terms. The repository's
-MIT License covers the code and documentation; it does **not** establish rights to reuse this dataset.
-Before redistributing or using the data outside this project, add a verified source citation and confirm
-the applicable data license.
+Keep the repository synthetic: do not replace this file with live customer records without an appropriate
+privacy, security, and governance review. The repository's MIT License covers the code and documentation;
+dataset reuse terms have not been specified separately by the project owner.

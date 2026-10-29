@@ -109,17 +109,16 @@ pytest --nbmake --nbmake-timeout=300 notebooks/smartcart_customer_segmentation.i
 
 ## Data and responsible use
 
-The dataset is de-identified, but it contains a pseudonymous ID plus income, household, and purchasing
-information. Do not attempt to re-identify individuals or use exploratory clusters for high-impact
-eligibility decisions.
+The project owner has confirmed that the included dataset is randomly generated/synthetic and does not
+represent real SmartCart customers. It is published for education and reproducible demonstration only.
+Do not replace it with live customer records without an appropriate privacy and governance review, and
+do not use exploratory clusters for high-impact eligibility decisions.
 
-The original project did not record the dataset source URL or redistribution terms. See
-[data/README.md](data/README.md) before reusing or redistributing the data. The observations are also
-historical—the latest enrollment date is in 2014—so the profiles must be revalidated on current data
-before operational use.
+The synthetic observations model a historical scenario—the latest enrollment date is in 2014—so the
+profiles are illustrative and must be revalidated on current, representative data before operational use.
+See [data/README.md](data/README.md) for the data-quality details.
 
 ## License
 
-The code and documentation are available under the [MIT License](LICENSE). This license does not
-establish reuse rights for the dataset; its original source and terms should be verified separately.
-
+The code and documentation are available under the [MIT License](LICENSE). Dataset reuse terms have not
+been specified separately by the project owner.
